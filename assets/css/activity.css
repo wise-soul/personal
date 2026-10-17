@@ -1,0 +1,93 @@
+.activity-card {
+    border: var(--brutal-border-thick);
+    box-shadow: var(--brutal-shadow);
+    background: white;
+    margin-bottom: 2rem;
+    transition: transform 0.2s;
+}
+.activity-img-container {
+    border-bottom: var(--brutal-border-thick);
+    overflow: hidden;
+}
+.activity-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+.activity-caption {
+    padding: 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.activity-date {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.8rem;
+    background: var(--brutal-yellow);
+    padding: 2px 8px;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    border: 2px solid #000;
+}
+.activity-text {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #000;
+    margin: 0;
+}
+
+.load-more-wrapper {
+    text-align: center;
+    padding: 2rem 0 4rem;
+}
+
+.load-more-btn {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    background: #000; 
+    color: #ffec00; 
+    border: 4px solid #000;
+    box-shadow: 8px 8px 0px #000;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.load-more-btn:hover {
+    background: #ffec00;
+    color: #000;
+    box-shadow: 4px 4px 0px #000;
+    transform: translate(3px, 3px);
+}
+
+.load-more-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.load-more-btn .spinner {
+    display: none;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 3px solid rgba(255, 236, 0, 0.3);
+    border-top-color: #ffec00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+.load-more-btn.loading .spinner {
+    display: inline-block;
+}
+
+.load-more-btn.loading .btn-text {
+    display: none;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}

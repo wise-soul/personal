@@ -1,0 +1,6 @@
+# Robots.txt for Andaru Triadi Portfolio
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://wise-soul.github.io/personal/sitemap.xml

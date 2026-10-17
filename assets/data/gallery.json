@@ -1,0 +1,37 @@
+[
+  {
+    "id": 4,
+    "title": "Diskusi Terkait Scada Project",
+    "category": "WINGS (PT. Prakarsa Alam Segar)",
+    "date": "2024/2025",
+    "image": "gallery/wings_1.webp"
+  },
+  {
+    "id": 5,
+    "title": "Meeting Project Purchasing",
+    "category": "WINGS (PT. Prakarsa Alam Segar)",
+    "date": "2024/2025",
+    "image": "gallery/wings_2.webp"
+  },
+  {
+    "id": 6,
+    "title": "Seminar Alibaba Qwen",
+    "category": "WINGS (PT. Prakarsa Alam Segar)",
+    "date": "2024/2025",
+    "image": "gallery/wings_3.webp"
+  },
+  {
+    "id": 7,
+    "title": "Outing Office",
+    "category": "WINGS (PT. Prakarsa Alam Segar)",
+    "date": "2024/2025",
+    "image": "gallery/wings_4.webp"
+  },
+  {
+    "id": 8,
+    "title": "Kegiatan Perkenalan Aplikasi TMS",
+    "category": "WINGS (PT. Prakarsa Alam Segar)",
+    "date": "2024/2025",
+    "image": "gallery/wings_5.webp"
+  }
+]

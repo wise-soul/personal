@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Node.js Developer Certification",
+    "issuer": "Udemy",
+    "category": "Software Engineering",
+    "date": "2022",
+    "image": "certificates/NodeJS-Udemy.webp"
+  },
+  {
+    "id": 2,
+    "title": "Mahir SEO Untuk Pemula",
+    "issuer": "Skill Academy by Ruangguru",
+    "category": "Digital Marketing & SEO",
+    "date": "2022",
+    "image": "certificates/seo_andaru_skillacademy.webp"
+  },
+  {
+    "id": 3,
+    "title": "Full-Stack Web Developer",
+    "issuer": "BuildWithAngga",
+    "category": "Software Engineering",
+    "date": "2021",
+    "image": "certificates/1708131188668.webp"
+  },
+  {
+    "id": 4,
+    "title": "Junior Programmer Web SKKNI",
+    "issuer": "Codepolitan",
+    "category": "Software Engineering",
+    "date": "2020",
+    "image": "certificates/1695818628611.webp"
+  }
+]

@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO Meta Tags -->
+    <title>Andaru Triadi - Fullstack Developer &amp; Problem Solver | Portofolio</title>
+    <meta name="title" content="Andaru Triadi - Fullstack Developer &amp; Problem Solver | Portofolio" />
+    <meta name="description" content="Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus pada pemecahan masalah bisnis, dan performa optimal." />
+    <meta name="keywords" content="Membangun aplikasi web scalable dan efisien dari konsep hingga live, Berfokus pada pemecahan masalah bisnis dan performa optimal, Andaru Triadi, Fullstack Developer, Web Developer, Problem Solver, Software Engineer, Portfolio Developer, .NET, Laravel, Vue, Bootstrap" />
+    <meta name="author" content="Andaru Triadi" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="language" content="Indonesian" />
+    <meta name="geo.region" content="ID" />
+    <meta name="geo.country" content="Indonesia" />
+
+    <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Andaru Triadi - Fullstack Developer &amp; Problem Solver" />
+    <meta property="og:description" content="Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus pada pemecahan masalah bisnis, dan performa optimal." />
+    <meta property="og:image" content="assets/img/andaru.webp" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Andaru Triadi Portfolio" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Andaru Triadi - Fullstack Developer &amp; Problem Solver" />
+    <meta name="twitter:description" content="Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus pada pemecahan masalah bisnis, dan performa optimal." />
+    <meta name="twitter:image" content="assets/img/andaru.webp" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/img/logo.png" />
+
+    <!-- Structured Data (Schema.org JSON-LD) for Google Crawler -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "#person",
+          "name": "Andaru Triadi",
+          "jobTitle": "Fullstack Developer & Problem Solver",
+          "description": "Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus pada pemecahan masalah bisnis, dan performa optimal.",
+          "image": "assets/img/andaru.webp",
+          "email": "andarutr@gmail.com",
+          "telephone": "+6282374436425",
+          "sameAs": [
+            "https://www.linkedin.com/in/andaru-triadi-a883ba428/",
+            "https://instagram.com/druwrk22"
+          ],
+          "knowsAbout": [
+            "Membangun aplikasi web scalable",
+            "Pemecahan masalah bisnis dan performa optimal",
+            "Web Development",
+            "Fullstack Engineering",
+            ".NET",
+            "Laravel",
+            "JavaScript",
+            "Clean Code"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "#website",
+          "name": "Andaru Triadi - Portofolio Web",
+          "description": "Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus pada pemecahan masalah bisnis, dan performa optimal.",
+          "author": {
+            "@id": "#person"
+          },
+          "inLanguage": "id-ID"
+        }
+      ]
+    }
+    </script>
+
+    <!-- External CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Space+Grotesk:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/css/glightbox.min.css" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/showcase.css" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar-brutal sticky-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a class="navbar-brand-brutal" href="#home">
+                <img src="assets/img/logo.png" alt="Andaru Triadi Logo" class="navbar-logo-brutal" />
+            </a>
+
+            <button class="menu-toggle-brutal d-lg-none ms-auto" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#sidebarMobile" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <div class="ms-auto d-none d-lg-flex flex-wrap justify-content-end">
+                <a class="nav-link-brutal active" href="#home">Home</a>
+                <a class="nav-link-brutal" href="#portfolio">Portofolio</a>
+                <a class="nav-link-brutal" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIDEBAR MOBILE (OFFCANVAS) -->
+    <div class="offcanvas offcanvas-end sidebar-brutal" tabindex="-1" id="sidebarMobile">
+        <div class="offcanvas-header brutal-header">
+            <h5 class="offcanvas-title">MENU</h5>
+            <button type="button" class="btn-close-brutal ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body p-0 d-flex flex-column justify-content-between">
+            <div class="sidebar-nav-list">
+                <a class="sidebar-item active" href="#home">HOME</a>
+                <a class="sidebar-item" href="#portfolio">PORTOFOLIO</a>
+                <a class="sidebar-item" href="#contact">CONTACT</a>
+            </div>
+
+            <div class="sidebar-footer p-3 text-center">
+                <p class="mb-1 fw-bold">andarutr@gmail.com</p>
+                <p class="small text-muted mb-0">© 2026 DARU</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- SECTION 1: HERO (BERANDA) -->
+        <section class="hero-brutal" id="home">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <!-- LEFT COLUMN: Profile & Bio -->
+                    <div class="col-lg-7">
+                        <!-- Status Pill -->
+                        <div class="hero-status-pill animate-fade-up">
+                            <span class="status-indicator"></span>
+                            <span>AVAILABLE FOR FREELANCE</span>
+                        </div>
+
+                        <h1 class="hero-name-split animate-blur-in">
+                            Andaru Triadi
+                        </h1>
+
+                        <div class="hero-role-wrapper animate-fade-up delay-1">
+                            <span class="badge-role-pill">PROBLEM SOLVER</span>
+                            <span class="hero-role-sub">Fullstack Developer</span>
+                        </div>
+
+                        <p class="hero-bio-desc animate-fade-up delay-2">
+                            Membangun aplikasi web scalable, dan efisien dari konsep hingga live. Berfokus
+                            pada pemecahan masalah bisnis, dan performa optimal.
+                        </p>
+
+                        <!-- CTA Buttons -->
+                        <div class="hero-cta-group animate-fade-up delay-3">
+                            <button class="btn-brutal-hero btn-hero-cv" data-bs-toggle="modal"
+                                data-bs-target="#cvModal">
+                                <i class="bi bi-file-earmark-person-fill"></i> Lihat CV
+                            </button>
+                            <a class="btn-brutal-hero btn-hero-portfolio" href="#portfolio">
+                                <i class="bi bi-grid-fill"></i> Portofolio
+                            </a>
+                        </div>
+
+                        <!-- Quick Metrics Highlights -->
+                        <div class="hero-metrics-row animate-fade-up delay-4">
+                            <div class="hero-metric-item">
+                                <span class="metric-number">16+</span>
+                                <span class="metric-label">Proyek Selesai</span>
+                            </div>
+                            <div class="hero-metric-divider"></div>
+                            <div class="hero-metric-item">
+                                <span class="metric-number">4+</span>
+                                <span class="metric-label">Sertifikasi</span>
+                            </div>
+                            <div class="hero-metric-divider"></div>
+                            <div class="hero-metric-item">
+                                <span class="metric-number">Enterprise</span>
+                                <span class="metric-label">Production Ready</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN: Photo Card with Floating Badges -->
+                    <div class="col-lg-5 text-center">
+                        <div class="hero-photo-wrapper animate-fade-up delay-2">
+                            <!-- Neo-Brutalist Frame -->
+                            <div class="hero-photo-card">
+                                <div class="photo-card-inner">
+                                    <img src="assets/img/andaru.webp" alt="Andaru Triadi - Fullstack Developer &amp; Problem Solver" class="hero-portrait-img"
+                                        loading="eager" />
+                                </div>
+                            </div>
+
+                            <!-- Floating Badge Top -->
+                            <div class="floating-badge badge-top animate-float-slow">
+                                <i class="bi bi-lightbulb-fill text-warning"></i>
+                                <div>
+                                    <span class="badge-title">Solution Driven</span>
+                                    <span class="badge-subtitle">Clean Code &amp; Logic</span>
+                                </div>
+                            </div>
+
+                            <!-- Floating Badge Bottom -->
+                            <div class="floating-badge badge-bottom animate-float-delayed">
+                                <i class="bi bi-cpu-fill text-primary"></i>
+                                <div>
+                                    <span class="badge-title">Fullstack Tech</span>
+                                    <span class="badge-subtitle">.NET • Laravel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 2: PORTOFOLIO -->
+        <section id="portfolio" class="pt-5 pb-4">
+            <!-- DEVICE WARNING -->
+            <div id="device-warning" class="device-warning-overlay">
+                <div class="warning-content">
+                    <div class="warning-icon">💻</div>
+                    <h2 class="warning-title">DESKTOP RECOMMENDED</h2>
+                    <p class="warning-text">
+                        <strong>Best viewed on a laptop or desktop</strong> for the optimal experience.
+                    </p>
+                    <button class="warning-btn" id="closeWarning">
+                        CONTINUE ANYWAY
+                    </button>
+                </div>
+            </div>
+
+            <!-- HEADER -->
+            <header class="showcase-header">
+                <div class="container">
+                    <h2 class="showcase-title animate-blur-in">🚀 Portofolio</h2>
+                    <p class="showcase-subtitle animate-fade-up delay-1">
+                        Klik kategori (Projects / Certificate) untuk melihat detail karya dan sertifikasi...
+                    </p>
+                </div>
+            </header>
+
+            <div class="container py-4">
+                <!-- MAIN CATEGORIES -->
+                <section class="main-category-section animate-fade-up delay-2">
+                    <div class="category-section-header">
+                        <span class="category-section-title">CATEGORIES</span>
+                    </div>
+                    <div class="main-category-cards">
+                        <div class="main-category-card" data-main="certificate">
+                            <div class="category-card-top">
+                                <i class="bi bi-award category-card-icon"></i>
+                                <span class="category-card-count" id="count-Certificate">0</span>
+                            </div>
+                            <h3 class="category-card-title">Certificate</h3>
+                            <p class="category-card-desc">Sertifikasi & Lisensi</p>
+                        </div>
+                        <div class="main-category-card active" data-main="projects">
+                            <div class="category-card-top">
+                                <i class="bi bi-folder-symlink category-card-icon"></i>
+                                <span class="category-card-count" id="count-MainProjects">0</span>
+                            </div>
+                            <h3 class="category-card-title">Projects</h3>
+                            <p class="category-card-desc">Portofolio & Web App</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- TECH STACK USAGE SECTION -->
+                <section class="tech-stack-section animate-fade-up delay-2 mb-4" id="techStackSection">
+                    <div class="category-section-header">
+                        <span class="category-section-title">TECH STACK USAGE</span>
+                        <span class="text-muted small"
+                            style="font-family: 'Space Mono', monospace; font-size: 0.72rem;">Click tech to
+                            filter</span>
+                    </div>
+                    <div class="tech-stack-badges" id="techStackBadges"></div>
+                </section>
+
+                <!-- PROJECTS SUB-CATEGORIES -->
+                <section class="category-section animate-fade-up delay-2" id="projectsSubSection">
+                    <div class="category-section-header">
+                        <span class="category-section-title">PROJECTS</span>
+                        <button class="category-all-btn" id="showAllBtn">
+                            <i class="bi bi-grid"></i> ALL (<span id="allCount">0</span>)
+                        </button>
+                    </div>
+                    <div class="category-cards">
+                        <!-- Freelance (disamping kiri Wings) -->
+                        <div class="category-card" data-filter="Freelance">
+                            <div class="category-card-top">
+                                <i class="bi bi-person-workspace category-card-icon"></i>
+                                <span class="category-card-count" id="count-Freelance">0</span>
+                            </div>
+                            <h3 class="category-card-title">Freelance</h3>
+                            <p class="category-card-desc">Proyek mandiri & klien</p>
+                        </div>
+                        <div class="category-card" data-filter="WINGS">
+                            <div class="category-card-top">
+                                <i class="bi bi-shop category-card-icon"></i>
+                                <span class="category-card-count" id="count-WINGS">0</span>
+                            </div>
+                            <h3 class="category-card-title">WINGS</h3>
+                            <p class="category-card-desc">PT. Prakarsa Alam Segar</p>
+                        </div>
+                        <div class="category-card" data-filter="SMK">
+                            <div class="category-card-top">
+                                <i class="bi bi-mortarboard category-card-icon"></i>
+                                <span class="category-card-count" id="count-SMK">0</span>
+                            </div>
+                            <h3 class="category-card-title">SMK Islam PB. Soedirman 2</h3>
+                            <p class="category-card-desc">Sekolah</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- CERTIFICATE GRID SECTION -->
+                <div class="certificate-grid-wrapper d-none mb-5" id="certificateGridSection">
+                    <div class="category-section-header mb-4">
+                        <span class="category-section-title">CERTIFICATES & LICENSES</span>
+                    </div>
+                    <div class="certificate-grid" id="certificateGrid"></div>
+                </div>
+
+                <!-- PROJECTS GRID -->
+                <div class="showcase-grid" id="showcaseGrid"></div>
+
+                <!-- EMPTY STATE -->
+                <div class="empty-state d-none" id="emptyState">
+                    <img src="assets/img/logo.png" alt="Logo" class="empty-state-logo" />
+                    <p>Pilih salah satu kategori di atas untuk melihat proyek.</p>
+                </div>
+
+                <!-- LOAD MORE BUTTON -->
+                <div class="load-more-wrapper">
+                    <button id="loadMoreBtn" class="btn btn-dark" style="display: none">
+                        <span class="btn-text">LOAD MORE (9)</span>
+                        <span class="spinner"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: CONTACT -->
+        <section id="contact" class="contact-section-wrapper">
+            <div class="container d-flex justify-content-center">
+                <div class="contact-card-exact animate-fade-up">
+                    <div class="row align-items-center g-4">
+                        <!-- LEFT SIDE -->
+                        <div class="col-lg-5 pe-lg-4">
+                            <div class="badge-contact-pill">
+                                <i class="bi bi-chat-quote-fill"></i>
+                                <span>CONTACT &amp; HUBUNGI</span>
+                            </div>
+
+                            <h2 class="contact-heading-title">Terimakasih</h2>
+
+                            <p class="contact-heading-desc">
+                                Silakan hubungi kontak berikut untuk informasi lebih lanjut mengenai proyek, kerjasama,
+                                atau peluang profesional.
+                            </p>
+                        </div>
+
+                        <!-- RIGHT SIDE -->
+                        <div class="col-lg-7 ps-lg-4">
+                            <div class="contact-list-column">
+                                <!-- EMAIL -->
+                                <div class="contact-list-item">
+                                    <a href="mailto:andarutr@gmail.com" class="contact-icon-square icon-square-email"
+                                        title="Kirim Email ke andarutr@gmail.com">
+                                        <i class="bi bi-envelope-at-fill"></i>
+                                    </a>
+                                    <div>
+                                        <div class="contact-meta-lbl">EMAIL</div>
+                                        <a href="mailto:andarutr@gmail.com"
+                                            class="contact-meta-val">andarutr@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <!-- INSTAGRAM -->
+                                <div class="contact-list-item">
+                                    <a href="https://instagram.com/druwrk22" target="_blank" rel="noopener noreferrer"
+                                        class="contact-icon-square icon-square-ig" title="Buka Instagram @druwrk22">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                    <div>
+                                        <div class="contact-meta-lbl">INSTAGRAM</div>
+                                        <a href="https://instagram.com/druwrk22" target="_blank"
+                                            rel="noopener noreferrer" class="contact-meta-val">@druwrk22</a>
+                                    </div>
+                                </div>
+
+                                <!-- LINKEDIN -->
+                                <div class="contact-list-item">
+                                    <a href="https://www.linkedin.com/in/andaru-triadi-a883ba428/" target="_blank"
+                                        rel="noopener noreferrer" class="contact-icon-square icon-square-linkedin"
+                                        title="Buka LinkedIn Andaru Triadi">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                    <div>
+                                        <div class="contact-meta-lbl">LINKEDIN</div>
+                                        <a href="https://www.linkedin.com/in/andaru-triadi-a883ba428/" target="_blank"
+                                            rel="noopener noreferrer" class="contact-meta-val">Andaru Triadi</a>
+                                    </div>
+                                </div>
+
+                                <!-- WHATSAPP -->
+                                <div class="contact-list-item">
+                                    <a href="https://wa.me/6282374436425" target="_blank" rel="noopener noreferrer"
+                                        class="contact-icon-square icon-square-wa"
+                                        title="Chat WhatsApp +62 823-7443-6425">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                    <div>
+                                        <div class="contact-meta-lbl">WHATSAPP</div>
+                                        <a href="https://wa.me/6282374436425" target="_blank" rel="noopener noreferrer"
+                                            class="contact-meta-val">+62 823-7443-6425</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-brutal py-4 border-top border-dark text-center bg-white">
+        <div class="container">
+            <p class="mb-0 fw-bold">© 2026 ANDARU TRIADI — All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- CV MODAL -->
+    <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+        <div class="modal-dialog cv-modal-dialog modal-dialog-centered">
+            <div class="modal-content cv-modal-content">
+                <div
+                    class="modal-header cv-modal-header d-flex flex-wrap align-items-center justify-content-between gap-2">
+                    <div class="d-flex align-items-center gap-2">
+                        <i class="bi bi-file-earmark-person-fill fs-4 text-warning"></i>
+                        <h5 class="modal-title cv-modal-title m-0 fw-bold" id="cvModalLabel">
+                            CV - Andaru Triadi
+                        </h5>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-2 flex-wrap ms-auto me-2">
+                        <!-- Open in New Tab Button -->
+                        <a id="cvOpenTabBtn" href="assets/data/CV Andaru Triadi.pdf" target="_blank" class="cv-tab-btn"
+                            title="Buka di tab baru">
+                            <i class="bi bi-box-arrow-up-right me-1"></i> Tab Baru
+                        </a>
+
+                        <!-- Download Button -->
+                        <a id="cvDownloadBtn" href="assets/data/CV Andaru Triadi.pdf" download="CV Andaru Triadi.pdf"
+                            class="cv-download-btn" title="Download CV (PDF)">
+                            <i class="bi bi-download me-1"></i> Download CV
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn-close btn-close-white btn-close-custom" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body cv-modal-body p-0">
+                    <div class="cv-viewer-container" style="min-height: 80vh;">
+                        <iframe id="cvFrame" src="assets/data/CV Andaru Triadi.pdf" width="100%" height="100%"
+                            style="border: none; min-height: 80vh;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div class="modal fade modal-brutal" id="projectModal" tabindex="-1" aria-labelledby="modalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Project Name</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalCarouselContainer"></div>
+
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div>
+                            <div class="card-company" id="modalCompany">Company</div>
+                            <span class="card-type" id="modalType">Web</span>
+                            <span class="category-badge category-production ms-2" id="modalCategory">Production</span>
+                        </div>
+                    </div>
+
+                    <h6 class="mb-2" style="font-family: 'Space Mono', monospace; font-weight: 700;">
+                        🎯 Key Impact
+                    </h6>
+                    <div class="modal-impact" id="modalImpact">
+                        Impact description here.
+                    </div>
+
+                    <h6 class="mb-2 mt-3" style="font-family: 'Space Mono', monospace; font-weight: 700;">
+                        🛠️ Tech Stack
+                    </h6>
+                    <div class="modal-tech-list" id="modalTech"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glightbox@3.3.0/dist/js/glightbox.min.js"></script>
+    <script src="assets/js/data-fallback.js"></script>
+    <script src="assets/js/portfolio.js"></script>
+</body>
+
+</html>
